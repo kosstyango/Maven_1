@@ -1,5 +1,4 @@
 package com.skillfactory;
-
 import java.util.Scanner;
 
 public class Menu {
@@ -12,10 +11,10 @@ public class Menu {
           4. - Exit.
         Добавьте возможность выбирать данные пункты
     */
-        System.out.println("      1. - List Documents\n" +
-                "      2. - Add Document\n" +
-                "      3. - Show Document\n" +
-                "      4. - Exit.\n");
+        System.out.println("      1. - Список документов\n" +
+                "      2. - Добавить документ\n" +
+                "      3. - Показать документ\n" +
+                "      4. - Выход\n");
         DocumentProcessor dp = new DocumentProcessor();
 
 

@@ -3,7 +3,6 @@ package com.skillfactory;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
 import java.util.ArrayList;
 import java.util.List;
 @AllArgsConstructor
@@ -12,7 +11,7 @@ import java.util.List;
 
 
 public class Document {
-    private String name;
-    private String data;
-    List<Paragraph> list2 = new ArrayList<>(); // список параграфов
+    private String name; //название документа
+    private String data; //содержимое документа
+    List<Paragraph> list = new ArrayList<>(); // список параграфов
 }
