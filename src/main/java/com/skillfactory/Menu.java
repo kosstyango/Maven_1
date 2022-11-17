@@ -22,7 +22,7 @@ public class Menu {
         Scanner scan = new Scanner(System.in);
     boolean a = true;
     while (a) {
-        char userInput = scan.nextLine().charAt(0); //принимаем линию, и только одну букву берём
+        char userInput = scan.nextLine().charAt(0); //принимаем строку, и только одну букву берём
         switch (userInput) {
             case '1' -> dp.listDoc();
             case '2' -> dp.addDoc();
