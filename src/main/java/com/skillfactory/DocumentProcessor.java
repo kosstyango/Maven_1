@@ -2,15 +2,15 @@ package com.skillfactory;
 
 public class DocumentProcessor {
     public void listDoc (){
-        System.out.println("Метод отображение списка документов");
+        System.out.println("List of documents Method");
     }
 
     public void addDoc (){
-        System.out.println("Метод добавка документа");
+        System.out.println("Document adding Method");
     }
 
     public void showDoc (){
-        System.out.println("Метод отображение документа");
+        System.out.println("Document showing Method");
     }
 
 }
